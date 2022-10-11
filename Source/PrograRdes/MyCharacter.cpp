@@ -32,3 +32,20 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
+void AMyCharacter::DummyFunction()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Odio mi vida"));
+}
+
+void AMyCharacter::Walk()
+{
+
+}
+
+void AMyCharacter::DummyCode()
+{
+
+}
+
+
+
